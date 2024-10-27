@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mytyle.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form class="form1" action="gravar.php" method="post">
+        <h1 id="titulo">Cadastro de Desenvolvedor</h1>
+        <p id="subtitulo"><strong>Complete suas Informações</strong></p>
+
+        <section class="conteiner1">
+            <div class="div1">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Nome">
+                <label for="sobrenome">Sobrenome:</label>
+                <input id="sobrenome" name="sobrenome" type="text" placeholder="Sobrenome">
+            </div>
+            <div class="div2">
+                <label for="idade">Idade:</label>
+                <input id="idade" name="idade" type="number" placeholder="Idade">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="Email">
+            </div>
+        </section>
+
+        <section class="conteiner2">
+        
+        <label>Qual lado você desenvolve?</label>
+        <p class="p1">
+            <label for="frontend">
+                <input type="radio" id="frontend" name="desenvolvimento"> Front-end
+            </label>
+        </p>
+        <p class="p1">
+            <label for="backend">
+                <input type="radio" id="backend" name="desenvolvimento"> Back-end
+            </label>
+        </p>
+        <p class="p1">
+            <label for="fullstack">
+                <input type="radio" id="fullstack" name="desenvolvimento"> Fullstack
+            </label>
+        </p>
+    </section>
+
+    <section class="conteiner3">
+        <label for="senioridade"><strong>Senioridade</strong></label>
+        <br>
+        <select name="senioridade" id="senioridade">
+            <option selected disabled value="">Selecionar</option>
+            <option value="junior">Junior</option>
+            <option value="pleno">Pleno</option>
+            <option value="senior">Senior</option>
+        </select>
+    </section>
+
+    <section class="conteiner4">
+        <p class="p2">
+            <label>Selecione as linguagens e tecnologias que utiliza:</label>
+        </p>
+       
+        <label for="tecnologia1">
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML"> HTML
+        </label>
+        <label for="tecnologia2">
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS"> CSS
+        </label>
+  
+        <label for="tecnologia3">
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript"> Javascript
+        </label>
+        <label for="tecnologia4">
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP"> PHP
+        </label>
+        <label for="tecnologia5">
+            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#"> C#
+        </label>
+        <label for="tecnologia6">
+            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python"> Python
+        </label>
+        <label for="tecnologia7">
+            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java"> Java
+        </label>
+    </section>
+
+    <section class="conteiner5">
+        <br>
+        <label for="experiencia">Conte um pouco sobre sua experiência:</label>
+        <textarea rows="6" style="width: 26em;" name="experiencia" id="experiencia"></textarea>
+    </section>
+    <section class="conteiner6">
+        <button class="botao" type="submit">Eviar</button>
+    </section>
+ 
+        
+
+    </form>
+
+</body>
+
+</html>

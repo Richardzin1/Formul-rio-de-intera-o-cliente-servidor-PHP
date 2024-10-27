@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+form{
+    background-color: bisque;
+    margin-top: 7em;
+    width: 900px;
+    height: 900px;
+    padding: 20px;
+}
+#titulo, #subtitulo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conteiner2, .conteiner3, .conteiner4{
+    margin-top: 20px;
+}
+
+input, button, textarea{
+    border-radius: 5px;
+}
+
+/* Começo do Conteiner 1 e suas divs */
+
+#nome, #email, #idade, #sobrenome{
+    width: 300px; /* Define a largura desejada */
+    height: 25px; /* Define a altura desejada */
+    padding: 10px; /* Espaçamento interno para aumentar o campo */
+    font-size: 16px; /* Aumenta o texto dentro do input */
+}
+
+#senioridade{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+
+.conteiner1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 300px;
+  
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 300px;
+ }
+
+/* Fim do Conteiner 1 */
+
+
+/* Comeco do Conteiner 2 e seus atributos */
+.conteiner2, .conteiner4, .conteiner3, .conteiner5{
+ padding-left: 40px;
+}
+.p1{
+    margin-top: 8px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 5px;
+}
+
+/* Fim do Conteiner 2 */
+/* Começo do conteiner 4 */
+.p2{
+    margin-bottom: 15px;
+}
+ /* Fim do conteiner 4 */
+
+ /* Começo do conteiner 5 */
+
+ .conteiner5{
+    display: flex;
+    flex-direction: column;
+ }
+
+ textarea{
+    margin-top: 8px;
+ }
+
+ .botao{
+    font-size: 1.2em;   
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+ }
+
+ .conteiner6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ /* Fim do conteiner 5 */
+
+ .botao:hover{
+    background-color: aqua;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+ }
+
+ input:focus, select:focus, textarea:focus {
+  background-color: #E0E0F8;
+ }
